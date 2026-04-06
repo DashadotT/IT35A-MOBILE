@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import Template from './pages/Template';
 import Login from './pages/Login';
 import Home from './pages/Home';
+import Menu from './pages/Menu';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -43,7 +44,7 @@ const App: React.FC = () => (
       <IonRouterOutlet>
 
         <Route exact path="/" component={Login}></Route>
-
+        <Route path="/app" component={Menu}></Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
