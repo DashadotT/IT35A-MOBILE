@@ -1,4 +1,4 @@
-import { IonButton, IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent } from "@ionic/react";
 
 const Search: React.FC = () => {
     return (
@@ -8,13 +8,11 @@ const Search: React.FC = () => {
                     <IonButtons>
                         <IonMenuButton></IonMenuButton>
                     </IonButtons>
-                    <IonTitle>My App</IonTitle>
+                    <IonTitle>Search</IonTitle>
                 </IonToolbar>
             </IonHeader>
-            <IonContent fullscreen>
-            </IonContent>
+            <IonContent fullscreen></IonContent>
         </IonPage>
     );
-};
-
+}
 export default Search;
